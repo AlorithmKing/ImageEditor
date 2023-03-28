@@ -64,7 +64,7 @@ public:
     { _filename = name; }
     inline std::shared_ptr<Mat> GetImg() const
     {return std::make_shared<Mat>(_SrcImg);}
-    void ConvertImgFormat(const std::string &savefilename);
+    void ConvertImgFormat( std::string &&savefilename);
     ~ImgFormatConv()
     {}
 protected:

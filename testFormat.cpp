@@ -9,7 +9,7 @@ using namespace std;
 
 
 int main() {
-    ImgFormatConv imgfile("../images.jpg",ImgFormatType::png);
+    ImgFormatConv imgfile("../images.jpg",ImgFormatType::bmp);
     //  auto str = imgfile.GetFilename();
     //  auto bol=imgfile.isOpenFile();
     imgfile.ConvertImgFormat("../images.png");

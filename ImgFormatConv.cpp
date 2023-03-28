@@ -39,12 +39,14 @@ bool ImgFormatConv::isOpenFile()
         return false;
     }
 }
-void ImgFormatConv::ConvertImgFormat(const std::string &savefilename)
+void ImgFormatConv::ConvertImgFormat( std::string &&savefilename)
 {
     auto pos = GetSourceImgFormatPos();
     auto Distancetype = _ImgFormat.GetImgFormat();
     auto DistanceFormat = _ImgFormat.GetMapValue(Distancetype);
     auto SourceFormat = _filename.substr(pos + 1);
+    savefilename = _filename.substr(0,pos+1)+DistanceFormat;
+    std::cout<<savefilename;
     if (!_SrcImg.empty())
     {
         if (SourceFormat == "png" && DistanceFormat != "png")
