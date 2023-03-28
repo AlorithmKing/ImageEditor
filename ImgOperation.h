@@ -14,7 +14,7 @@
 class ImgOperation
 {
 public:
-    ImgOperation(ImgFormatConv &picture)
+    explicit ImgOperation(ImgFormatConv &picture)
     {
         _Img = picture.GetImg();
     }
@@ -28,9 +28,9 @@ protected:
 
 
 private:
-    int _width;
-    int _height;
-    int _channel;
+    int _width{};
+    int _height{};
+    int _channel{};
     std::shared_ptr<Mat> _Img;
 };
 
