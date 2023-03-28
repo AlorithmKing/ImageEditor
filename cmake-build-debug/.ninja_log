@@ -1,0 +1,8 @@
+# ninja log v5
+4	1946	7016984353729905	CMakeFiles/testFormat.dir/testFormat.cpp.obj	71ecb4d563a2ce1b
+10	2264	7016985374318215	CMakeFiles/testResize.dir/ImgFormatConv.cpp.obj	8dd5b448bf23b429
+2044	2193	7016985094452472	testFormat.exe	9082f4788ecbb134
+4	2043	7016985092989522	CMakeFiles/testFormat.dir/ImgFormatConv.cpp.obj	a75eb7cc2d2956ea
+4	1924	7016985666418770	CMakeFiles/testResize.dir/testResize.cpp.obj	4c0a522f37157165
+5	2146	7016985373141541	CMakeFiles/testResize.dir/ImgOperation.cpp.obj	d49e7e9920296fb3
+1925	2097	7016985668121460	testResize.exe	50d070512ccb6846

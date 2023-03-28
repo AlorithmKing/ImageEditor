@@ -1,0 +1,4 @@
+C:/Users/24091/Desktop/Clion_Project/ImageEditor/cmake-build-debug/CMakeFiles/testFormat.dir
+C:/Users/24091/Desktop/Clion_Project/ImageEditor/cmake-build-debug/CMakeFiles/testResize.dir
+C:/Users/24091/Desktop/Clion_Project/ImageEditor/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/24091/Desktop/Clion_Project/ImageEditor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
